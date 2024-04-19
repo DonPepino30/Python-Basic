@@ -1,0 +1,1 @@
+"""Mostrar sólo los datos comprendidos entre la posición 10 y 35"""
