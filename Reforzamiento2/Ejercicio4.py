@@ -1,0 +1,1 @@
+"""Quitar 2 elementos de tu nueva lista de ítems por valor, no por índice."""

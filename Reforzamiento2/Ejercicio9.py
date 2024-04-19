@@ -1,0 +1,1 @@
+"""Sumar las dos listas creadas anteriormente y mostrar el resultado en consola."""

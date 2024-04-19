@@ -1,0 +1,1 @@
+"""Borra el primer ítem de la lista mediante su índice."""

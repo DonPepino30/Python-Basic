@@ -1,0 +1,1 @@
+"""Agregar 6 Objetos o valores nuevos a tu lista anterior, utilizando el método visto en clase."""
