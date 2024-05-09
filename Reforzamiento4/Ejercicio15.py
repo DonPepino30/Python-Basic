@@ -33,3 +33,32 @@ for user in data:
     oracion = f"\nBienvenido {nombre} {apellido}, usted tiene {age} años. El correo que nos proporcionó es {email} y la compañía actual donde trabaja se llama {company}. Dentro de sus datos también encontramos una website que es: {website}.\n"
 
     print(oracion)
+
+newUser = {
+    "id": len(data) + 1,
+    "name": "Benito Camelon",
+    "username": "BbC13",
+    "email": "benitoKmelion@gmail.com",
+    "address": {
+        "street": "Av. Los Alamos",
+        "suite": "105 B",
+        "city": "Lima",
+        "zipcode": "15083",
+        "geo": {
+            "lat": "40.7128",
+            "lng": "-74.0060"
+        }
+    },
+    "phone": "928338213",
+    "website": "BenitoKm3lon.com",
+    "company": {
+        "name": "PuzDestroy S.A.C.",
+        "catchPhrase": "Si entras, no sales insatisfecho (abordamos las necesidades de los clientes)",
+        "bs": "Swing es zzzzzz"
+    }
+}
+
+data.append(newUser)
+
+print("\nNuevo usuario agregado:")
+print(json.dumps(newUser, indent=4))
