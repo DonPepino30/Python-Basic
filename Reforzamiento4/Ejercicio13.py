@@ -12,13 +12,10 @@ def multiplicadorD(*args):
             resultado = func(*args, *kwargs)
             print("La función ha sido ejecutada correctamente")
             return resultado
-
         return funcC 	
-
     return funcB
 
 @multiplicadorD(4, 5, 6, 7)
 def multiplicar(*num):
     return num[0] * num[1] * num[2] * num[3]
-
 print(multiplicar(3, 2, 1, 0))
