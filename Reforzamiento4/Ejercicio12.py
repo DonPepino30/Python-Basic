@@ -11,11 +11,9 @@ def saludo(fun):
         resultado = fun(nombre)
         print("Hasta luego!")
         return resultado
-
     return saludoInterno
 
 @saludo
 def saludarPersona(nombre):
     return f"Soy {nombre}"
-
 print(saludarPersona())
